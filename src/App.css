@@ -1,0 +1,22 @@
+/* General Styles */
+.App {
+  text-align: center;
+  background-color: rgba(40, 24, 58, 0.555); /* Nice color choice! */
+  font-family: Arial, sans-serif; /* Set a fallback font for better compatibility */
+}
+
+/* Container Styles */
+.container {
+  background-color: azure; /* Clean and bright background color */
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); /* Flexible grid columns with a minimum width */
+  grid-auto-rows: auto; /* Automatically adjust row height based on content */
+  grid-gap: 10px; /* Increased grid gap for better visual separation */
+  padding: 20px; /* Add padding for spacing between container edges and grid items */
+}
+
+/* Optional: Enhance grid items with borders */
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border for each grid item */
+  padding: 15px; /* Add padding to grid items for better spacing */
+}
