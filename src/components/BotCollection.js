@@ -24,12 +24,12 @@ function BotCollection ({ addToArmy }){
       addToArmy(bot);
     }
     return(
-        <div>
+        <div  className="bot-collection">
         <h2>Bot Collection</h2>
         <h3>Create your army!</h3>
         
         {bots.map((bot) => (
-          <div key={bot.id} className='container'>
+          <div key={bot.id} className='bot'>
            
             
               <img src={bot.avatar_url} alt="bot avatar" />

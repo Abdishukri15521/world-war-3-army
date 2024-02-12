@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.bot-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust column width based on available space */
+  grid-gap: 20px; /* Space between grid items */
+  justify-items: center; /* Center align items horizontally */
+}
+
+.bot {
+  border: 1px solid #ccc; /* Optional: Add a border around each bot card */
+  padding: 20px; /* Optional: Add padding for better spacing */
+  text-align: center; /* Center align text within each bot card */
+}
